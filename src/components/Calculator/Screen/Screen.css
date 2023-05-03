@@ -1,0 +1,19 @@
+.Screen {
+    width: 85%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+    color: white;
+}
+
+.Result {
+    position: absolute;
+    margin: 0 5px 0 0;
+    font-weight: 400;
+    font-size: 45px;
+    padding: 0;
+    bottom: 0;
+    right: 0;
+}

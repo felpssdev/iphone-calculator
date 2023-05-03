@@ -1,0 +1,7 @@
+.Homebar {
+    width: 80px;
+    background-color: white;
+    height: 3.5px;
+    align-self: center;
+    border-radius: 12px;
+}
