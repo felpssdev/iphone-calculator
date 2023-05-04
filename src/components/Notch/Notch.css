@@ -10,6 +10,7 @@
 }
 
 .Speaker {
+    margin-top: 3px;
     background-color: black;
     width: 28px;
     height: 4px;
@@ -18,6 +19,7 @@
 }
 
 .Camera {
+    margin-top: 3px;
     background-color: black;
     width: 4px;
     height: 4px;

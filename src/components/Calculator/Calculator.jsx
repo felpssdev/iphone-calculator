@@ -130,7 +130,15 @@ class Calculator extends Component {
     const { number } = this.state
 
     this.setState({ number: Number(number) / 100})
-  } 
+  }
+
+  addComma = () => {
+    const { number } = this.state
+
+    if (!number.includes('.')) {
+      this.setState({ number: number + '.'})
+    }
+  }
 
   buttonClick = (event) => {
     if (!isNaN(Number(event.target.innerText))) {
@@ -151,6 +159,8 @@ class Calculator extends Component {
       this.togglePositive()
     } else if (event.target.innerText === '%') {
       this.divBy100()
+    } else if (event.target.innerText === ',') {
+      this.addComma()
     }
   }
 

@@ -44,6 +44,7 @@ class Button extends Component {
       }
       default:
         console.log('erro')
+        break
     }
   }
 
