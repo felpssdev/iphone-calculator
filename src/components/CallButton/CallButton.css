@@ -1,0 +1,55 @@
+.CallButton {
+  height: 33px;
+  border-radius: 50%;
+  padding: 4px;
+  margin: 4px;
+  background-color: #34C759;
+  width: 33px;
+  border-radius: 50%;
+  position: absolute;
+  left: 65px;
+}
+
+.CallDelete {
+  position: relative;
+  align-self: center;
+  width: 80%;
+  height: 160px;
+}
+
+.Delete {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(78, 78, 78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 2px;
+  color: white;
+}
+
+.Delete:hover {
+  cursor: pointer;
+}
+
+.DeleteSection {
+  display: flex;
+  position: absolute;
+  left: 110px;
+  top: 19px;
+  transition: all 1s ease-in-out;
+}
+
+.ponta-esquerda {
+  height: 0;
+  width: 0;
+  border-top: 7.5px solid transparent;
+  border-right: 7.5px solid rgb(78, 78, 78);
+  border-bottom: 7.5px solid transparent;
+  border-left: 7.5px solid transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

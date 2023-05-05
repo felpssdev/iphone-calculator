@@ -1,0 +1,10 @@
+.Menu {
+  margin: auto;
+  width: 225px;
+  height: 487px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  border: 5px solid rgb(72, 72, 72);
+}

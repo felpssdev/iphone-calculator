@@ -1,0 +1,19 @@
+.Apps {
+  width: 80%;
+  height: 75%;
+  margin: 20px 0 30px 0;
+  align-self: center;
+  display: flex;
+}
+
+.AppIconName {
+  color: white;
+  font-size: 8px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2px 0 2px;
+}
+
+

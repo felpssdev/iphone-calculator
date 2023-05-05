@@ -2,9 +2,11 @@
 import React, { Component } from 'react'
 import './Calculator.css'
 import './Screen/Screen.css'
-import Buttons from '../Buttons/Buttons.jsx'
-import Notch from '../Notch/Notch'
-import HomeBar from '../HomeBar/HomeBar'
+import Buttons from '../../components/Buttons/Buttons.jsx'
+import Notch from '../../components/Notch/Notch'
+import HomeBar from '../../components/HomeBar/HomeBar'
+
+const buttonsOptions = ['AC', '+/-', '%', '/', '7', '8' , '9', 'x', '4', '5', '6', '-' , '1', '2', '3', '+', '0', ',', '=']
 
 class Calculator extends Component {
   state = {
@@ -135,7 +137,7 @@ class Calculator extends Component {
   addComma = () => {
     const { number } = this.state
 
-    if (!number.includes('.')) {
+    if (!JSON.stringify(number).includes('.')) {
       this.setState({ number: number + '.'})
     }
   }
@@ -173,7 +175,7 @@ class Calculator extends Component {
         <div className='Screen'>
           <h1 className='Result'>{ number }</h1>
         </div>
-        <Buttons buttonClick={ this.buttonClick }/>
+        <Buttons buttonsOptions={ buttonsOptions } buttonClick={ this.buttonClick }/>
         <HomeBar />
       </div>
     )

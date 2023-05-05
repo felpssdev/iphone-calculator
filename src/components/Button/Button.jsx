@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 import React, { Component } from 'react'
 import './Button.css'
 
@@ -42,9 +43,6 @@ class Button extends Component {
         })
         break
       }
-      default:
-        console.log('erro')
-        break
     }
   }
 

@@ -1,0 +1,15 @@
+.SwitchMenu {
+  width: 40%;
+  height: 10px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}

@@ -1,0 +1,45 @@
+.Phone {
+  margin: auto;
+  width: 225px;
+  height: 487px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  border: 5px solid rgb(72, 72, 72);
+  background-color: black;
+}
+
+.PhoneResult {
+  width: 150px;
+  height: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-self: center;
+}
+
+.PhoneNumber {
+  font-weight: 600;
+  position: absolute;
+  top: 20px;
+}
+
+.AddNumber {
+  position: absolute;
+  color: rgb(57, 57, 240);
+  top: 48px;
+  font-size: 8px;
+}
+
+.PhoneButtons {
+  width: 150px;
+  height: 200px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
